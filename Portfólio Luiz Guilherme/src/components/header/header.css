@@ -1,0 +1,30 @@
+header {
+    padding: 3.1rem 0;
+}
+
+header ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0 0 0 6rem;
+    padding: 1.8rem 0;
+    transition: background 2s ease;
+}
+
+nav a:hover {
+    background: linear-gradient(45deg, #13ADC7, #6978D1, #945DD6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+img {
+    margin: 0 2rem 0 0 ;
+    width: 2rem;
+    height: 2rem;
+}
