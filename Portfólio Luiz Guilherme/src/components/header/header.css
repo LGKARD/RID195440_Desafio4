@@ -16,15 +16,31 @@ nav a {
     margin: 0 0 0 6rem;
     padding: 1.8rem 0;
     transition: background 2s ease;
+    transition: transform .5s ease;
 }
 
 nav a:hover {
-    background: linear-gradient(45deg, #13ADC7, #6978D1, #945DD6);
+    background: linear-gradient(45deg, #945DD6, #6978D1, #13ADC7);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    transform: scale(1.2);
 }
+
+li {
+    display: inline-block;
+    transition: transform .5s ease;
+}
+li:hover {
+    transform: scale(1.1);
+}
+
 img {
     margin: 0 2rem 0 0 ;
     width: 2rem;
     height: 2rem;
+    transition: transform .5s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
 }

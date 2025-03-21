@@ -15,27 +15,27 @@ function Header() {
           <nav>
             <ul className="d-flex al-center">
               <li>
-                <a href="/projects">Projetos</a>
+                <Link to="/projects">Projetos</Link>
               </li>
               <li>
-                <a href="/tecnologies">Tecnologias</a>
+                <Link to="/tecnologies">Tecnologias</Link>
               </li>
               <li>
-                <a href="/about">Sobre mim</a>
+                <Link to="/about">Sobre mim</Link>
               </li>
             </ul>
           </nav>
           <div className="d-flex al-center jc-end">
-          <Link to="https://github.com/LGKARD" target="_blank" rel="noreferrer">
+          <a href="https://github.com/LGKARD" target="_blank" rel="noreferrer">
             <img src={Github} alt="Github" />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/luiz-guilherme-freitas-neto-3bb246177/"
+          </a>
+          <a
+            href="https://www.linkedin.com/in/luiz-guilherme-freitas-neto-3bb246177/"
             target="_blank"
             rel="noreferrer"
           >
             <img src={Linkedin} alt="Linkedin" />
-          </Link>
+          </a>
         </div>
         </div>
         
