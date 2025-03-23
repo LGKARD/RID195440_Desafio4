@@ -1,12 +1,16 @@
 import Header from "../components/header/header"
 import Footer from "../components/footer/footer"
+import Button from "../components/button/button"
+import Hero from "../components/hero/hero"
 
 function Home() {
     return (
         <>
             <Header />
-            <h1>Home</h1>
-            <p>teste</p>
+            <div className="container">
+                <Hero />
+            </div>
+            
             <Footer />
         </>
     )
