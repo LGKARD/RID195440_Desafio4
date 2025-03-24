@@ -1,7 +1,11 @@
+import Header from "../components/header/header"
+import Footer from "../components/footer/footer"
+
 function Tecnologies() {
     return (
         <>
-            <h1>Tecnologies</h1>
+            <Header />
+            <Footer />
         </>
     )
 }

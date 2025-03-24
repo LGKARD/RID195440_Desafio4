@@ -1,7 +1,17 @@
+import Header from "../components/header/header"
+import Footer from "../components/footer/footer"
+import ProjectsList from "../components/projects/projectsList"
+
+
+
 function Projects() {
     return (
         <>
-            <h1>Projects</h1>
+            <Header />
+            <div className="container">
+                <ProjectsList />
+            </div>
+            <Footer />
         </>
     )
 }

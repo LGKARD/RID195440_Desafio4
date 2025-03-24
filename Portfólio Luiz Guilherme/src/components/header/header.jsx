@@ -15,6 +15,9 @@ function Header() {
           <nav>
             <ul className="d-flex al-center">
               <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
                 <Link to="/projects">Projetos</Link>
               </li>
               <li>

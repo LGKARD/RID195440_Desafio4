@@ -44,6 +44,9 @@ a {
 .jc-end {
   justify-content: flex-end;
 }
+.fd-column {
+  flex-direction: column;
+}
 
 @media (max-width: 768px) {
   .container {

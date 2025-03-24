@@ -1,0 +1,36 @@
+.projects-section {
+    margin: 9rem 0;
+    text-align: center;
+}
+
+.projects-hero {
+    margin: 0 0 6rem 0;
+    max-width: 47rem;
+}
+
+.projects-hero h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0 0 3rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.1rem 1.3rem;
+}
+
+.project-card {
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    height: 26.8rem;
+    width: 100%;
+}
+.projects-grid h3 {
+    font-size: 2.25rem;
+}
+
+.projects-grid p {
+    font-size: 1.5rem;
+}

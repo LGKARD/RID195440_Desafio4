@@ -1,7 +1,12 @@
+
+import Header from "../components/header/header"
+import Footer from "../components/footer/footer"
+
 function About() {
     return (
         <>
-            <h1>About</h1>
+            <Header />
+            <Footer />
         </>
     )
 }
