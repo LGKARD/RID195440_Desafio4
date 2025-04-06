@@ -34,13 +34,13 @@ li:hover {
     transform: scale(1.1);
 }
 
-img {
+header img {
     margin: 0 2rem 0 0 ;
     width: 2rem;
     height: 2rem;
     transition: transform .5s ease;
 }
 
-img:hover {
+header img:hover {
     transform: scale(1.2);
 }
