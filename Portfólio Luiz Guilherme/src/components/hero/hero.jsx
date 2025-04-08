@@ -9,7 +9,7 @@ function Hero() {
     <div className="hero d-flex al-center">
       <div className="hero-text">
         <h1>Luiz Guilherme Freitas Neto</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quam voluptates delectus maiores at, doloremque vel totam, in nihil culpa velit eum minus omnis consequuntur laudantium, eius et numquam voluptatibus.</p>
+        <p>Desenvolvedor apaixonado por tecnologia, com experiência em React, HTML, CSS e JavaScript. Busco constantemente aprender, criar soluções eficientes e evoluir na área de desenvolvimento web.</p>
         <Link className="linkButtonHero" to="/about"><Button buttonStyle="primary">Saiba mais</Button></Link>
         
       </div>
