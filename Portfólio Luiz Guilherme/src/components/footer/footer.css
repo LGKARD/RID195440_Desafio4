@@ -2,6 +2,10 @@ footer {
     padding: 2rem 0 2rem 0;
 }
 
+footer-mobile{
+    display: flex;
+}
+
 footer h2 {
     font-weight: 600;
 }
@@ -31,4 +35,14 @@ footer img {
 
 footer img:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 1092px) {
+    .footer-mobile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-contact, .footer-email, .footer-links {
+        margin-bottom: 20px;
+      }
 }

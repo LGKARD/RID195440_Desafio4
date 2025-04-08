@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <div className="al-center d-flex jc-between">
+        <div className="footer-mobile al-center d-flex jc-between">
           <div className="footer-contact">
             <h2>Meu Contato:</h2>
             <a
