@@ -1,0 +1,24 @@
+.button {
+    
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1.1rem 3.4rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+
+
+.button.primary {
+    background: linear-gradient(45deg, #945DD6, #6978D1, #13ADC7);
+    border: none;
+    border-radius: 5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+.button.primary:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,103 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  .timeline-section h2 {
+    text-align: start;
+    font-size: 4rem;
+    margin-bottom: 50px;
+  }
+  
+  .timeline-bar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-top: 12px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+  
+  .timeline-item {
+    width: 22%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .timeline-item h3 {
+    margin-bottom: 10px;
+    font-size: 2.25rem;
+  }
+  
+  .dot {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -51px; /* para alinhar com a linha */
+    left: 50%;
+    transform: translateX(-50%);/* contorno preto falso */
+    z-index: 2;
+  }
+  .dot:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 2px #ffffff; 
+  }
+  
+  .timeline-item p {
+    font-size: 1.75rem;
+    color: #ffffff;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #858585;
+    transition: transform 0.4s ease;
+    pointer-events: none;
+  }
+  
+  /* Quando o .dot for hover, mostra o p do mesmo item */
+  .timeline-item:hover p {
+    transform: translateY(-10px);
+    color: #ffffff;
+    pointer-events: auto;
+  }
+  
+  @media (max-width: 1192px) {
+    .timeline-bar {
+      flex-direction: column;
+      border-top: none;
+      border-left: 12px solid white;
+      align-items: flex-start;
+      padding-top: 0;
+      padding-left: 14px;
+      position: relative;
+      height: 100%;
+    }
+  
+    .timeline-item {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 50px;
+    }
+  
+    .timeline-item h3 {
+      font-size: 2rem;
+      margin-left: 2rem;
+    }
+  
+    .dot {
+      top: 0;
+      left: -36px; /* Posiciona o ponto em cima da linha esquerda */
+      transform: none;
+    }
+  
+    .timeline-item p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      margin-left: 2rem;
+    }
+  }
+  

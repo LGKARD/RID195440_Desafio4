@@ -1,0 +1,48 @@
+footer {
+    padding: 2rem 0 2rem 0;
+}
+
+footer-mobile{
+    display: flex;
+}
+
+footer h2 {
+    font-weight: 600;
+}
+
+footer a {
+    color: #ffffff;
+    font-weight: 600;
+    transition: background 2s ease;
+    transition: transform .5s ease;
+    display: inline-block;
+
+}
+
+footer a:hover {
+    background: linear-gradient(45deg, #945DD6, #6978D1, #13ADC7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+}
+
+footer img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 2rem 0 0;
+    transition: transform .5s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1092px) {
+    .footer-mobile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-contact, .footer-email, .footer-links {
+        margin-bottom: 20px;
+      }
+}
