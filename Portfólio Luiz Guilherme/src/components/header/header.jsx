@@ -3,7 +3,7 @@ import { useState } from "react";
 
 //ASSETS
 import Github from "../../assets/github.svg";
-import Linkedin from "../../assets/linkedin.svg";
+import Linkedin from "../../assets/Linkedin.svg";
 
 //STYLES
 import "./header.css";
