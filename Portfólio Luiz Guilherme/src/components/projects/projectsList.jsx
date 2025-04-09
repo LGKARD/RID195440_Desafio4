@@ -2,6 +2,12 @@ import Button from "../button/button";
 //STYLES
 import "./projectsList.css";
 
+//PUBLIC
+import Dashboard from "../../../public/dashboard-image.png";
+import Arquitetura from "../../../public/arquitetura-image.png";
+import DevNews from "../../../public/devnews-image.png";
+import Cardapio from "../../../public/cardapio-image.png";
+
 function ProjectsList() {
   return (
     <div className="projects-section">
@@ -13,7 +19,7 @@ function ProjectsList() {
           <div className="padding-border">
             <div className="thumb">
               <a target="_blank" href="https://dashboard-de-vendas.vercel.app/">
-                <img src="../../public/dashboard-image.png" alt="" />
+                <img src={Dashboard} />
               </a>
             </div>
             <h3>Dashboard</h3>
@@ -36,7 +42,7 @@ function ProjectsList() {
                 target="_blank"
                 href="https://react-e-typescript-parndt0zd-lgkards-projects.vercel.app/"
               >
-                <img src="../../public/arquitetura-image.png" alt="" />
+                <img src={Arquitetura} alt="" />
               </a>
             </div>
             <h3>Arquitetura</h3>
@@ -57,7 +63,7 @@ function ProjectsList() {
           <div className="padding-border">
             <div className="thumb">
               <a target="_blank" href="https://rid195440desafio2.netlify.app/">
-                <img src="../../public/devnews-image.png" alt="" />
+                <img src={DevNews} alt="" />
               </a>
             </div>
             <h3>Dev News</h3>
@@ -80,7 +86,7 @@ function ProjectsList() {
                 target="_blank"
                 href="https://cardapiohamburgueria.netlify.app/"
               >
-                <img src="../../public/cardapio-image.png" alt="" />
+                <img src={Cardapio} alt="" />
               </a>
             </div>
             <h3>Cardápio</h3>
