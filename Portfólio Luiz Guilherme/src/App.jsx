@@ -7,10 +7,14 @@ import Projects from './pages/projects'
 import Tecnologies from './pages/tecnologies'
 import About from './pages/about'
 
+//Utils
+import ScrollTop from './utils/scrollTop'
+
 function App() {
 
   return (
     <Router>
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
