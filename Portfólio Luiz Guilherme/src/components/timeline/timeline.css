@@ -53,16 +53,15 @@ body {
     color: #ffffff;
     margin-top: 20px;
     line-height: 1.5;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.4s ease, transform 0.4s ease;
+    color: #858585;
+    transition: transform 0.4s ease;
     pointer-events: none;
   }
   
   /* Quando o .dot for hover, mostra o p do mesmo item */
   .timeline-item:hover p {
-    opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-10px);
+    color: #ffffff;
     pointer-events: auto;
   }
   

@@ -1,5 +1,4 @@
 import Button from "../button/button";
-import { Link } from "react-router-dom";
 //STYLES
 import "./projectsList.css";
 

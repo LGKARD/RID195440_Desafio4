@@ -4,7 +4,7 @@ import "./tech.css";
 const technologies = [
   {
     name: "React",
-    level: "Avançado",
+    level: "Intermediário",
     description: "SPAs, componentes reutilizáveis e APIs",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
@@ -28,7 +28,7 @@ const technologies = [
   },
   {
     name: "JavaScript",
-    level: "Avançado",
+    level: "Intermediário",
     description: "ES6+, DOM, eventos e fetch",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },

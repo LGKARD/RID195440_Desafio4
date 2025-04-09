@@ -60,3 +60,8 @@
     text-align: left;
 }
 
+@media (max-width: 1004px) {
+    .projects-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

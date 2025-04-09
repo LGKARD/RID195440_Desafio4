@@ -20,3 +20,12 @@
 .linkButtonHero {
     margin: 0 0 0 6.7rem;
 }
+
+@media (max-width: 824px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    .hero p {
+        font-size: 1.8rem;
+    }
+}
