@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-
 //ASSETS
 import Github from "../../assets/github.svg";
-import Linkedin from "../../assets/linkedin.svg";
+import Linkedin from "../../assets/Linkedin.svg";
 
 //STYLES
 import "./footer.css";
